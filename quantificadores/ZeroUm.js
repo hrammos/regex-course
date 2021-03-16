@@ -2,7 +2,7 @@ const texto = 'De longe eu avistei o fogo e uma pessoa gritando: FOGOOOOOO!';
 const outroTexto = 'There is a big fog in NYC';
 
 /**
- * Operador ?
+ * Quantificador ?
  * Zero ou um (Opcional)
  * 
  * O caractere que está ao lado do ? é opcional.
