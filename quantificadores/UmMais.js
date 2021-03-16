@@ -5,8 +5,8 @@ const outroTexto = 'There is a big fog in NYC';
  * Quantificador +
  * Um ou mais
  * 
- * O caractere que está ao lado do ? é opcional.
- * Logo, pode ter um ou vários o em "fogo"
+ * O caractere que está ao lado do + pode ter um ou mais.
+ * Logo, pode ter um ou vários "O" em "fogo"
  */
 
 const regex = /fogo+/gi;
