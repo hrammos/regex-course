@@ -9,7 +9,7 @@ console.log(texto.match(/\d{1,}/g)); // Equivalente à Um ou Mais
 /***
  * Palavras que tem exatamente 7 dígitos
  *
- * Observação: \w não engloba o "õ", entõ milhões não encontra
+ * Observação: \w não engloba o "õ", então milhões não encontra
  * no primeiro exemplo abaixo, porém no seguinte, milhões é encontrado
  */
 console.log(texto.match(/\w{7}/g)); 
