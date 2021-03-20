@@ -14,3 +14,7 @@ console.log(outroTexto.match(/(lenta)(mente)/gi));
 console.log(outroTexto.match(/(lenta)(mente)?/gi));
 console.log(outroTexto.replace(/(lenta)(mente)/gi, 'ABC $1 EF'));
 console.log(outroTexto.replace(/(lenta)(mente)/gi, '$2'));
+
+const terceiroTexto = 'abcdefghijkll';
+
+console.log(terceiroTexto.match(/(a)(b)(c)(d)(e)(f)(g)(h)(i)(j)(k)(l)\12/g));
