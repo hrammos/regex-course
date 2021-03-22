@@ -27,6 +27,8 @@ console.log(texto.match(/[\wÀ-ú]+(?=\.)/gi));
  * 
  * Nos exemplos abaixo retorna palavras que não estão antes da virgula (todas a palavras exceto CALMO e É),
  * na primeira expressão, e todas as palavras que não estão na frente de um ponto (todas as palavras exceto NERVOSO), na segunda.
+ * 
+ * Observação: na primeira expressão abaixo não retorna a palavra É por considerar como borda.
  */
 console.log(texto.match(/[\wÀ-ú]+\b(?!,)/gi));
 console.log(texto.match(/[\wÀ-ú]+[\s|\.](?!,)/gi));
