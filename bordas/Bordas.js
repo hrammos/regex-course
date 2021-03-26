@@ -15,4 +15,9 @@ console.log(texto.match(/^r/gi));
 
 console.log(texto.match(/r$/gi));
 
-console.log(texto.match(/^r.*r$/gi)); // Retorna null devido o problema do dotall no Javascript
+/**
+ * Retorna null devido o problema do dotall no Javascript
+ *
+ * dotall => . não resolve \n
+ */ 
+console.log(texto.match(/^r.*r$/gi)); 
